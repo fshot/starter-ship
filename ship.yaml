@@ -1,17 +1,10 @@
 assets:
   v1:
     - github:
-        repo: replicatedhq/replicated-starter-ship
+        repo: fshot/starter-ship
         path: /base
         dest: ./
-        source: private
-        # can be a commit SHA or branch reference, but master is best for quick iteration
-        ref: master
-    - github:
-        repo: replicatedhq/replicated-starter-ship
-        path: /scripts
-        dest: ./
-        source: private
+        source: public
         # can be a commit SHA or branch reference, but master is best for quick iteration
         ref: master
 config:
