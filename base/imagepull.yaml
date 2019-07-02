@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: "{\"auths\":{\"registry.replicated.com\":{\"username\":\"foo\",\"password\":\"foo\",\"email\":\"deprecated@example.com\",\"auth\":\"foo\"}}"
+kind: Secret
+metadata:
+  name: auditlog-imagepull-secret
+  namespace: auditlog
+type: kubernetes.io/dockerconfigjson
